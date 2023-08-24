@@ -44,6 +44,7 @@ When running a build or a test, Bazel does the following:
 
 Since all previous build work is cached, Bazel can identify and reuse cached artifacts and only rebuild or retest what's changed. To further enforce correctness, you can set up Bazel to run builds and tests [hermetically](https://bazel.build/basics/hermeticity) through sandboxing, minimizing skew and maximizing [reproducibility](https://bazel.build/run/build#correct-incremental-rebuilds).
 
+https://bazel.build/start/cpp
 # Action graph
 The action graph represents the build artifacts, the relationships between them, and the build actions that Bazel will perform. Thanks to this graph, Bazel can [track](https://bazel.build/run/build#build-consistency) changes to file content as well as changes to actions, such as build or test commands, and know what build work has previously been done. The graph also enables you to easily [trace dependencies](https://bazel.build/query/guide) in your code.
 
