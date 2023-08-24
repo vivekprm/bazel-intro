@@ -17,7 +17,7 @@ Bazel is extensible. Many [languages](https://bazel.build/rules) are supported, 
 # Using Bazel
 To build or test a project with Bazel, you typically do the following:
 
-- **Set up Bazel.** [Download and install Bazel](https://bazel.build/install)).
+- **Set up Bazel.** [Download and install Bazel](https://bazel.build/install).
 
 - **Set up a project [workspace](https://bazel.build/concepts/build-ref#workspaces)**, which is a directory where Bazel looks for build inputs and BUILD files, and where it stores build outputs.
 
