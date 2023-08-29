@@ -8,3 +8,11 @@ cc_binary(
         "//examples/example3/lib2:lib2",
     ]
 )
+
+genrule(
+    name = "example3_dsym",
+    srcs = [":example3"],
+    outs = ["example3.dSYM"],
+    output_to_bindir = True,
+    cmd = "dsymutil $(location :example3) -o $@"
+)

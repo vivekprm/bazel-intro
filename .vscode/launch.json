@@ -7,8 +7,8 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/bazel-bin/examples/example2/example2",
+            "name": "Launch",
+            "program": "${workspaceFolder}/bazel-bin/examples/example3/example3",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
